@@ -59,6 +59,8 @@ Now, we inspect the structure, numerical summary, and specific rows of the datas
 
 ### Splitting the dataset into train and test sets
 
+Taking a good look at the data, we understand that features such as ```DriverLisence``` or ```ZipCode``` are not effective in credir approval and we can set them aside. Next, it is time to split our data into train set and test set. 
+
 ### Handling the missing values (part i)
 
 ### Handling the missing values (part ii)
