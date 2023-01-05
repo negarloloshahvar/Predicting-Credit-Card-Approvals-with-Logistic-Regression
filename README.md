@@ -28,6 +28,12 @@ In this project we are going to build a Machine Learning model using the Logisti
 
 
 ### Credit card applications
+First we load our dataset into ```cc_apps``` using  ```pandas```.
+
+### Inspecting the applications
+
+The loaded dataset includes the following: Gender, Age, Debt, Married, BankCustomer, EducationLevel, Ethnicity, YearsEmployed, PriorDefault, Employed, CreditScore, DriversLicense, Citizen, ZipCode, Income and finally the ApprovalStatus.
+
 
 ```
 'data.frame':   689 obs. of  16 variables:
@@ -47,9 +53,9 @@ In this project we are going to build a Machine Learning model using the Logisti
  $ ZipCode       : chr  "00043" "00280" "00100" "00120" ...
  $ Income        : num  560 824 3 0 0 ...
  $ Approved      : chr  "+" "+" "+" "+" ...
+ 
  ```
-
-### Inspecting the applications
+Now, we inspect the structure, numerical summary, and specific rows of the dataset by extracting the summary statistics of the data using the ```describe()``` method of ```cc_apps```. Then, we use the ```info()``` method of ```cc_apps``` to get more information about the DataFrame.
 
 ### Splitting the dataset into train and test sets
 
