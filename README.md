@@ -11,4 +11,4 @@ In this project we are going to build a Machine Learning model using the Logisti
 - After our data is in good shape, we will do some exploratory data analysis to build our intuitions.
 - Finally, we will build a machine learning model that can predict if an individual's application for a credit card will be accepted.
 
-Check out the Jupyter Lab for a more detailed explanation.
+Check out the [Jupyter Lab](https://github.com/negarloloshahvar/Predicting-Credit-Card-Approvals-with-Logistic-Regression/blob/54ada568ba1902bf921ed3184f938a4d208ded3f/Predicting%20Credit%20Card%20Approvals%20with%20Logistic%20Regression.ipynb) for a more detailed explanation.
